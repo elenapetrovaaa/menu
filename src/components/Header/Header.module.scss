@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: end;
+    gap: 22px;
+    align-items: center;
+    text-align: end;
+
+    &__qty {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        color: #FFFFFF;
+        width: 150px;
+    }
+
+    &__icon {
+        background-color: transparent;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+    }
+}

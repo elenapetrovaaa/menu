@@ -1,0 +1,9 @@
+.arrow__button {
+    background-color: transparent;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+}
